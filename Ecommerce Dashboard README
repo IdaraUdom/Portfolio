@@ -1,0 +1,61 @@
+Ecommerce Performance Dashboard (Power BI) Case Study
+
+Project Overview
+I created a dynamic and interactive Power BI dashboard to analyse user behavior and marketing performance for an ecommerce store during November 2019. The Kaggle dataset is a real-world clickstream dataset. 
+
+The dashboard tracks and visualises these key KPIs:
+Total revenue
+Revenue trend
+User engagement
+Conversion performance
+Purchase funnel drop-off
+Customer segmentation
+Product and brand trends
+
+Tools and Techniques used:
+Power BI Desktop for visualization
+Power Query for data cleaning and transformation
+DAX for dynamic KPI calculations (e.g., revenue, conversion rate)
+Custom visuals: funnel charts, bar charts, time series, KPI cards
+Slicers and filters for interactivity (by date, user type, etc.)
+
+Key Metrics Calculated with DAX:
+Total Revenue	- Sum of price for all purchase events
+Total Unique Users - Distinct count of user IDs
+Revenue per User -	Revenue ÷ Total Users
+LTV per User -	Total revenue from repeat buyers ÷ # of repeat buyers
+Conversion Rate	- Purchases ÷ Views
+Cart Abandonment Rate	- (Carts - Purchases) ÷ Carts
+Average Order Value (AOV) -	Revenue ÷ Total Purchases
+Repeat Purchase Rate -	Repeat Buyers ÷ Total Buyers
+
+Insights & Observations found:
+
+Funnel Performance - 
+Total Views: approximately 64 million
+Add to Cart: approximately 3 million
+Purchases:  approximately 1 million
+Conversion Rate: 1.44%
+Cart Abandonment Rate: approximately 70%
+Final funnel insights:
+Only 1 in 3 users who add to cart end up purchasing, potentially because of pricing or UX issues.
+
+Revenue Trends
+Mid-month spike and steady growth seen; presents a potential for strategic promotions
+
+Customer Behavior
+Repeat customers made up approximately 12% of buyers, yet contributed significantly to total revenue.
+LTV per user: $5,341.17
+AOV: $300.12
+Loyalty programs could be leveraged to increase return customer rate and grow LTV.
+
+Product Insights
+November’s top-purchased category: electronics.smartphone
+Top brands: Samsung, Apple, Xiaomi, Huawei
+A significant amount of purchases were from unmarked users; tag management intervention suggested to better track user behaviour 
+
+Recommendations based on data
+Run mid-month promotions to take advantage of existing revenue spikes
+Offer incentives for abandoned carts e.g. discounts within 8-24 hours after leaving the site
+Introduce loyalty systems to retain high-value repat customers and increase LTV
+Explore customer segmentation to create personalised and targeted campaigns 
